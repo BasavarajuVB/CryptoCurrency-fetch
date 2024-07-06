@@ -1,0 +1,10 @@
+/* Write your CSS code here */
+p {
+  color: #fff;
+}
+.currency-types {
+  display: flex;
+}
+ul{
+  padding-left: 0;
+}

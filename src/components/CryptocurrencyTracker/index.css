@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 10px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main-heading {
+  font-family: 'roboto';
+  font-weight: 600;
+  font-size: 30px;
+  color: #00e7ff;
+  text-align: center;
+}
+.currency-img {
+  width: 80%;
+  text-align: center;
+}
+.head-img {
+  text-align: center;
+}
+.loader {
+  text-align: center;
+  align-items: center;
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .currency-list-container {
+    border: 3px solid #00e7ff;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+  }
+}
+.currency-list-container {
+  border: 4px solid #00e7ff;
+  border-radius: 5px;
+}
+.currency-types {
+  display: flex;
+  align-items: center;
+}
+.header-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: linear-gradient(to top, #092e33, #00e7ff);
+
+  padding: 6px;
+}
+.usd {
+  margin: 5px;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+.usd1 {
+  margin-right: 12px;
+  margin: 5px;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+.coin-type {
+  margin-left: 8px;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 600;
+}
